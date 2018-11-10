@@ -1,0 +1,44 @@
+\documentclass[a4paper,italian]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\setcounter{secnumdepth}{-1}
+\usepackage[italian]{babel}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{pdftitle={Diario Giornaliero},
+ pdfauthor={Michele Spinella}}
+
+%journal entry
+\newcommand{\JournalEntry}[2] {
+    \textbf{\textsc{#1}\textsuperscript{#2}}
+}
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%\pdfpageheight\paperheight
+%\pdfpagewidth\paperwidth
+
+
+\makeatother
+
+\begin{document}
+
+\title{Diario Giornaliero}
+
+
+\author{Michele Spinella}
+
+\maketitle
+\tableofcontents{}
+
+\include{Dicembre2013}
+\include{Aprile2014}
+\include{2015_2017}
+\include{Agosto2018}
+\include{Novembre2018}
+\end{document}

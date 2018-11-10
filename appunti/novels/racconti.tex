@@ -1,0 +1,56 @@
+%-------------------------%
+%-----Document Setup------%
+%-------------------------%
+\documentclass[a4,10pt,oneside,openany]{memoir}
+\usepackage[utf8x]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{savetrees}
+\usepackage{verbatim}
+\linespread{1.5}
+\setlength{\footskip}{20pt}
+
+%-------------------------%
+%------Document Code------%
+%-------------------------%
+\newcommand{\thought}[1]{\textit{#1}}
+
+\newcommand{\scenechange}{
+  \par
+  \vspace{\baselineskip}
+  \par
+\noindent}
+%Creates a line break for a change of scene
+
+\newcommand{\majorchange}{
+  \par
+  \vspace{\baselineskip}
+  \hfill
+  \textasteriskcentered
+  \hfill
+  \vspace{\baselineskip}
+\noindent}
+%creates a major line break, split by an asterisk for scene changes at the end of a page of where a sense of a major change is required.
+
+%-------------------------%
+%------Main Document------%
+%-------------------------%
+\begin{document}
+\title{Appunti e racconti}
+\author{Michele Spinella}
+\date{\today}
+\maketitle
+
+\chapter*{Una giornata al Palazzo di Giustizia}
+\input{palazzo_giustizia.tex}
+\chapter*{L'incontro imprevisto}
+\input{incontro_imprevisto.tex}
+%add additional sections by creating new section#.tex files and copying the two lines above. You can number sections (remove the asterisks) or name them (in the curly braces) or even use chapters instead. Ooo, and don't forget you can do parts too!!
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
