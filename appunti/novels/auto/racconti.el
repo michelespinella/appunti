@@ -9,6 +9,7 @@
     "latex2e"
     "palazzo_giustizia"
     "incontro_imprevisto"
+    "ilconvitto"
     "memoir"
     "memoir10"
     "inputenc"
