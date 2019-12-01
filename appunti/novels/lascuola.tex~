@@ -1,0 +1,35 @@
+\documentclass[submission]{sffms}
+
+%%\usepackage[italian]{babel}
+%%\usepackage[T1]{fontenc}
+
+
+\author{Michele Spinella}
+\title{La Scuola}
+
+\runningtitle{La Scuola}
+\surname{Spinella}
+
+
+\begin{document}
+
+\begin{synopsis}
+Un bambino va a scuola ma non è accettato da nessuno perchè forestiero.
+\end{synopsis}
+
+\chapter{Uno}
+
+La scuola era alla fine di una strada in salita, asfaltata da poco. Anni addietro infatti era usata per salire alla malga. Attorno alla scuola c'erano dei prati verdi, alcuni in salita  altri con delle piccole piane, dove spesso i bambini giocavano.
+Era di carnagione più scura, i capelli crespi e gli occhi neri. Saliva con fatica la strada, e si guardava attorno, come se si fosse perso. Gli altri bambini lo superavano sicuri, accompagnati dai genitori, che li spronavano  come se stessero portando le capre al pascolo.
+Era la prima volta che faceva quella strada e già  non gli piaceva, era ripida.
+Da dove veniva non c'erano salite così ripide, c'erano il mare, gli scogli e il vento. Un vento che portava l'odore dei pini marittimi e li faceva sussurrare, portava il canto delle cicale quando faceva caldo.
+Niente di tutto ciò. L'aria era fredda e pioveva ogni sera, la casa era molto umida. La mamma il pomeriggio faticava ad accendere il fuoco, anche la legna era impregnata di umidità.
+
+
+\newscene
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
